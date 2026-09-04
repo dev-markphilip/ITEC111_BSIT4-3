@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: 'Poppins', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
+            color: #eaeaea;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .profile-card {
+            max-width: 500px;
+            width: 100%;
+            background: #26263c;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .avatar {
+            width: 110px;
+            height: 110px;
+            background: linear-gradient(135deg, #ff6ec4, #7873f5);
+            color: white;
+            border-radius: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(120, 115, 245, 0.5);
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        h1 {
+            color: #ffffff;
+            margin: 10px 0 5px 0;
+            letter-spacing: 0.5px;
+        }
+        .role {
+            color: #7873f5;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+        .bio {
+            color: #b3b3c6;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+        }
+        .back-link {
+            display: inline-block;
+            color: #ff6ec4;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid #ff6ec4;
+            padding: 8px 18px;
+            border-radius: 30px;
+            transition: all 0.2s ease;
+        }
+        .back-link:hover {
+            background: #ff6ec4;
+            color: #1e1e2f;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="avatar"><img src="person.png" alt="JD" ></div>
+        
+        <!-- STUDENTS: REPLACE THE TEXT BELOW WITH YOUR OWN INFO -->
+        <h1>Arjane Sanchez</h1>
+        <div class="role">Student</div>
+        <div class="role">BSIT 4-3</div>
+      
+        
+        <p class="bio">
+            Hi! I am a 4th year student learning web development and Git version control. 
+            My favorite hobbies are playing Nightcrows,  listening to music, and watching K-dramas.
+        </p>
+        
+        <a href="index.html" class="back-link">← Back to Directory</a>
+    </div>
+</body>
+</html>
